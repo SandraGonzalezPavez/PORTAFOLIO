@@ -14,6 +14,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-size: 1.5rem;
+    text-align: left;
 }
 
 .navbar .navbar-nav {
@@ -63,8 +64,15 @@ body {
     flex-wrap: wrap;
 }
 
-.project {
-    background: #8b99eb;
+.project1 {
+    background: url(./img/colores.png) ;
+    padding: 1rem;
+    margin: 1rem;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.project2 {
+    background: url(./img/colores.png);
     padding: 1rem;
     margin: 1rem;
     width: 45%;
@@ -108,7 +116,43 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background: #555;
 }
+.Habilidades {
+    background-color: #f9f9f9; /* Fondo claro para la sección */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+/* Estilo del título */
+.Habilidades h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la tabla */
+.Habilidades table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilo para las celdas de la tabla */
+.Habilidades td {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+/* Efecto hover para las filas */
+.Habilidades tr:hover {
+    background-color: #f1f1f1;
+}
 .footer {
     background: #840ff1;
     color: #fff;
